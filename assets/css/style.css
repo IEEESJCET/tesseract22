@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 997;
 }
 #header.header-scrolled, #header.header-inner {
-  background: rgba(6, 12, 34, 0.98);
+  background: #191414;
   height: 70px;
 }
 #header #logo h1 {
@@ -416,7 +416,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #hero:before {
   content: "";
-  background: rgba(6, 12, 34, 0.8);
+  background: #191414;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -630,7 +630,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 30px;
 }
 #speakers .speaker .details {
-  background: rgba(6, 12, 34, 0.76);
+  background: #191414;
   position: absolute;
   left: 0;
   bottom: -40px;
@@ -1050,7 +1050,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #subscribe:before {
   content: "";
-  background: rgba(6, 12, 34, 0.6);
+  background: #191414;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1110,10 +1110,10 @@ h1, h2, h3, h4, h5, h6 {
   border: none;
   border-radius: 5px;
   transition: all 0.3s ease-in-out;
-  box-shadow: 0 10px 25px 0 rgba(6, 12, 34, 0.1);
+  box-shadow: 0 10px 25px 0 #191414;
 }
 #buy-tickets .card:hover {
-  box-shadow: 0 10px 35px 0 rgba(6, 12, 34, 0.2);
+  box-shadow: 0 10px 35px 0 #221c1c;
 }
 #buy-tickets .card hr {
   margin: 25px 0;
@@ -1293,7 +1293,7 @@ h1, h2, h3, h4, h5, h6 {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #101522;
+  background: #191414;
   padding: 0 0 25px 0;
   color: #eee;
   font-size: 14px;
