@@ -21,9 +21,23 @@
   <link rel="stylesheet" href="../eventpage/style.css" />
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="/eventpage/css/style.css">
+  <link rel="stylesheet" href="/assets/">
   <style>
     body {
       background-color: #07132c;
+    }
+
+    @media screen and (max-width: 768px) {
+      .speaker-img {
+        width: 250px;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .speaker-img {
+        width: 200px;
+      }
     }
   </style>
 </head>
@@ -35,7 +49,7 @@
         <!-- Classy Menu -->
         <nav class="classy-navbar justify-content-between" id="conferNav">
           <!-- Logo -->
-          <a class="nav-brand" href="../index.html"><img src="../img/core-img/lgo.png" style="height: 35px;"
+          <a class="nav-brand" href="../index.html"><img src="../img/core-img/lgo.png" style="height: 5px;"
               alt="" /></a>
         </nav>
       </div>
@@ -46,36 +60,40 @@
       <div class="row align-items-center">
         <!-- About Content -->
         <div class="col-12 col-md-6">
-          <div class="about-thumb mb-80 wow fadeInUp" data-wow-delay="300ms">
-         <div class="row"> 
-             <div class="col-lg-4 col-md-6">
-               <img src="images/b7347b2a-fdbd-4cf5-90d8-9e72f5da583a.JPG" alt="" />
-            <p>Akhil Reghu <br>
-                Science Communicator</p>
-            </div>
-            <div class="col-lg-4 col-md-6">
-            <img src="images/f2ed4b76-8b0d-483d-8660-1edab55c549f.JPG" alt="" />
-            <p>Vishnu Gopan <br>
-                Automotive Designer</p>
-            </div>
-            <div class="col-lg-4 col-md-6">
-            <img src="images/IMG_2065.jpg" alt="" />
-            <p>Githu NS <br>
-                CEO , Kasperob Robotics</p>
-            </div>
-        
+          <div class="col-md-12 about-thumb mb-80 wow fadeInUp mt-5" data-wow-delay="300ms">
+            <img src="../assets/img/events/ice.png" alt="" style="width: 500px;" />
+          </div>
+          <div class="col-md-12 about-thumb mb-3 wow fadeInUp d-flex justify-content-center" data-wow-delay="300ms">
+            <img src="images/e1.jpg" alt="" style="border-radius: 230px;" width="290px" class="speaker-img" />
+          </div>
+          <div class="col-md-12 about-thumb mb-80 wow fadeInUp d-flex justify-content-center" data-wow-delay="300ms">
+            <h5 style="color: white;" class="mt-0 about-content-text">Mr. Speaker</h5>
+          </div>
         </div>
-        </div>
-        </div>
-        <div class="row">
         <div class="col-12 col-md-6">
           <div class="about-content-text mb-80">
-            <h6 class="wow fadeInUp" data-wow-delay="300ms"></h6>
+            <h6 class="wow fadeInUp" data-wow-delay="300ms">TALK SESSION</h6>
             <h3 class="wow fadeInUp" data-wow-delay="300ms">
-                A culturally entertaining art form on the illusionary street dance style.
+              Discussing basics, Ubuntu, Python and C++
             </h3>
-        
-           
+            <p class="wow fadeInUp" data-wow-delay="300ms">
+
+              Introduction to ROS and concepts
+              <br>- ros master
+              <br>- rostopics
+              <br>- rosservice
+            </p>
+            <p class="wow fadeInUp" data-wow-delay="300ms">
+              Demonstrating ROS concepts with Turtlesim
+
+              <br> Introduction to ROS programming. <br>
+
+              <br> Introduction to Gazebo: Robotics simulation <br>
+
+              <br> Demo: Real robot demonstration <br>
+
+              <br> ROS Application and Robotics Job <br>
+            </p>
 
             <!---<h5 style="color: white;">ABOUT THE EVENT</h5>
             <ul style="color: white; list-style-type: circle;">
@@ -88,14 +106,15 @@
 
             </ul>
             --->
-            <p> 
+            <p>
             </p>
-              <br>
-              <a href="/index.html/#buy-tickets" style="text-decoration: none;"> <button class="button-custom" >Register Now
+            <br>
+            <a href="/index.html/#buy-tickets" style="text-decoration: none;"> <button class="button-custom">Register
+                Now
               </button> </a>
           </div>
         </div>
-    </div>
+
         <!-- About Thumb -->
 
       </div>
@@ -117,5 +136,3 @@
 </body>
 
 </html>
-
-
