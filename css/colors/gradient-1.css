@@ -1,0 +1,8 @@
+.overlay-gradient {
+    background: rgb(255,110,83);
+    background: linear-gradient(98deg, rgba(255,110,83,1) 42%, rgba(215,71,71,1) 72%, rgba(138,66,70,1) 100%); 
+}
+.pricing-s1 .inner{
+    background: rgb(255,110,83);
+    background: linear-gradient(180deg, rgba(255,110,83,1) 57%, rgba(255,96,66,1) 100%); 
+}
