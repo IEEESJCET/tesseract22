@@ -1617,6 +1617,7 @@ a.btn-dark.btn-id {
 }
 .btn-custom {
 	padding: 8px 10px 8px 10px;
+	margin-bottom: 15px;
 	font-weight: bold;
 	text-transform: uppercase;
 }
@@ -1667,9 +1668,9 @@ a.btn-custom, .btn-custom {
 	background: #eee;
 	color: #fff;
 	border-radius: 40px;
-	padding: 10px 30px 10px 30px;
-	min-width: 120px;
+	padding: 10px 20px;
 	text-decoration:none;
+	text-align: center;
 }
 a.btn-border {
 	border: solid 1px rgba(255, 255, 255, 1);
@@ -2035,15 +2036,13 @@ h3 {
 	font-weight: 500;
 	line-height: 32px;
 }
-.subtitle.s2 span {
+/* .subtitle.s2 span {
 	margin-right: 20px;
 	padding-left: 20px;
-}
+} */
 .subtitle.s2 i {
 	margin-right: 10px;
-}
-.subtitle.s2 span:first-child {
-	padding-left: 0;
+	margin-left: 10px;
 }
 .subtitle.s3{
 	font-size:14px;
@@ -2825,6 +2824,7 @@ span.teaser {
 .pricing-s1 .bottom ul li {
 	padding: 10px 0;
 	border-bottom:solid 1px rgba(255,255,255,.2);
+	font-size: medium;
 }
 .pricing-s1 .bottom ul li>span {
 	color: #16A085;
