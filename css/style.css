@@ -3032,6 +3032,7 @@ span.teaser {
 	margin: 0;
 	padding: 0;
 	font-weight: bold;
+	
 }
 .accordion-inner img.full-size {
 	margin-top: 5px;
@@ -3322,6 +3323,8 @@ a.accordion-toggle, a:visited.accordion-toggle {
 	margin-bottom: 0px;
 	padding: 0;
 	background:rgba(255,255,255,.1);
+	display: flex;
+	justify-content: center;;
 }
 .de_tab.tab_style_4 .de_nav li img {
 	width: auto;
@@ -5107,6 +5110,7 @@ footer .widget_list li a {
 	padding: 40px 20px 20px 20px;
 	color:#fff;
 	min-height:80px;
+
 }
 .schedule-listing:nth-child(2n+2) {
 	background:rgba(255,255,255,.1);
@@ -5116,6 +5120,8 @@ footer .widget_list li a {
 .schedule-item .sc-name,
 .schedule-item .sc-info {
 	float:left;
+	display: flex;
+	justify-content: center;
 }
 .schedule-item .sc-time {
 	text-align:center;

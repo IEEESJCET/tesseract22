@@ -15,12 +15,12 @@
 
 .de_tab.tab_style_4 .de_nav li:nth-child(1n+1).active,
 .small-border{
-	background-color:#fc4668;
+	background-color:rgba(255,255,255,.2);
 }
 .de_tab.tab_style_4 .de_nav li:nth-child(2n+2).active, 
 .de_tab.tab_style_4 .de_nav li:nth-child(2n+2).active,
 .countdown-s5 .countdown-section:nth-child(3n+3){
-	background-color:#694c8b;
+	background-color:rgba(255,255,255,.2);
 }
 .de_tab.tab_style_4 .de_nav li:nth-child(3n+3).active, 
 .de_tab.tab_style_4 .de_nav li:nth-child(3n+3).active,
