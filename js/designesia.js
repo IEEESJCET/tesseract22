@@ -1133,7 +1133,7 @@
 			 */
 			jQuery("#homepage nav a, .scroll-to").on("click", function(evn) {
 				if (this.href.indexOf('#') != -1) {
-					evn.preventDefault();
+					// evn.preventDefault();
 					jQuery('html,body').scrollTo(this.hash, this.hash);
 				}
 			});
