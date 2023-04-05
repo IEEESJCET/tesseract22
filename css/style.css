@@ -2892,6 +2892,39 @@ span.teaser {
 .pricing-s1.light .ribbon {
 	color: #fff;
 }
+
+/*WORKSHOPS*/
+.events{
+	margin-top: 8%;
+    align-items: center;
+	
+}
+.card{
+	margin-left: 28%;
+}
+.inner{
+	overflow: hidden;
+	padding-left: 16px;
+}
+.inner img{
+	transition: all 1.5s ease;
+    height: 180px;
+	width: 320px;
+}
+.inner:hover img{
+	transform: scale(1.5);
+
+}
+
+@media only screen and (max-width: 600px) {
+
+	.inner{
+		padding-left: 3px;
+	}
+  }
+  
+
+/*---------------*/
 /* preloader */
 
 
@@ -4742,7 +4775,6 @@ a, a:hover, .test-column, .test-column:hover {
   filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
 }
 	
-}
 #btn-close-x {
 	width: 100px;
 	height: 100px;
