@@ -6,3 +6,14 @@
     background: rgb(255,110,83);
     background: linear-gradient(180deg, rgba(255,110,83,1) 57%, rgba(255,96,66,1) 100%); 
 }
+.theColor{
+    background: rgb(255,110,83);
+    background: linear-gradient(180deg, rgba(255,110,83,1) 57%, rgba(255,96,66,1) 100%); 
+}
+.theColorColor{
+    color: rgb(255,110,83);
+    /* background: linear-gradient(180deg, rgba(255,110,83,1) 57%, rgba(255,96,66,1) 100%);  */
+}
+.halfWhite {
+    color: rgba(255, 255, 255, 0.795);
+}
