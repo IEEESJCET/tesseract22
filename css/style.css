@@ -2907,21 +2907,21 @@ span.teaser {
 	/* padding-left: 16px; */
 }
 .inner img{
-	transition: all 1.5s ease;
-    height: 180;
+	transition: all 1.5s ease-in-out;
+    height: 260px;
 	width: 100%;
 	object-fit: cover;
 }
 .inner:hover img{
-	transform: scale(1.2);
+	transform: scale(1.1);
 
 }
 
 @media only screen and (max-width: 600px) {
 
-	.inner{
-		/* padding-left: 3px; */
-	}
+	/* .inner{
+		padding-left: 3px;
+	} */
   }
   
 
@@ -5156,7 +5156,9 @@ footer .widget_list li a {
 .schedule-item .sc-info {
 	float:left;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: start;
 }
 .schedule-item .sc-time {
 	text-align:center;
@@ -5196,6 +5198,11 @@ footer .widget_list li a {
 	font-size:18px !important;
 	margin-bottom: 10px;
 	font-weight:bold;
+}
+.schedule-item .sc-info h4 {
+	font-size:13px !important;
+	/* margin-bottom: 10px; */
+	/* font-weight:; */
 }
 
 .de_tab.tab_style_4 .de_nav {
@@ -7696,6 +7703,7 @@ i {
 	  color: white;
 	  border-radius: 3px;
 	  overflow: hidden;
+	  position: relative;
 	  /* background: linear-gradient(180deg, rgba(255,110,83,1) 57%, rgba(255,96,66,1) 100%);  */
 
 }
@@ -7703,4 +7711,36 @@ i {
 .eventcard h3 {
 	font-size: 2.3rem;
 	font-weight: 700;
+}
+
+.eventcard .ribbon {
+	width: 200px;
+	position: absolute;
+	top: 20px;
+	left: -55px;
+	text-align: center;
+	line-height: 50px;
+	letter-spacing: 1px;
+	color: #222;
+	font-weight: bold;
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	background-color: rgba(255,255,255,.6);
+	z-index: 100;
+
+}
+
+.intro-box {
+	padding: 1rem;
+	margin: 1rem;
+	background-color: #cccccc30;
+	padding-top: 3rem;
+	border-radius: 3px;
+	color: #ffffffcf;
+	color: #1f1b24;
+}
+
+.intro-box h3 {
+	/* color: #ffffff!important; */
 }
